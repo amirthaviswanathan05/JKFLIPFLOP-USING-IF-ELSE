@@ -38,10 +38,10 @@ The maximum possible groupings of adjacent ones are already shown in the figure.
 3. Implement Flip-Flop Logic: Write Verilog code to implement the JK flip-flop logic based on its functional table. Use a synchronous always @(posedge CLK) block to trigger the flip-flop on the positive edge of
 the clock signal.
 4. Simulate Using Testbench: Write a Verilog testbench to simulate the behavior of the JK flip-flop under different input conditions.
-5.Apply Input Stimuli: In the testbench, apply various combinations of input stimuli (J, K, CLK) to cover all possible input states.
+5. Apply Input Stimuli: In the testbench, apply various combinations of input stimuli (J, K, CLK) to cover all possible input states.
 6. Verify Output Behavior: Verify that the output behavior of the JK flip-flop matches the expected behavior defined by its functional table.
 7. Check for Race Conditions: Ensure that there are no race conditions or undefined states in the design by analyzing the timing and sequence of input changes.
-
+   
 # PROGRAM:
 ```
 Program for flipflops and verify its truth table in quartus using Verilog programming.
